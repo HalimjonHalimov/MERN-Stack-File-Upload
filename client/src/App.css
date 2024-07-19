@@ -1,0 +1,27 @@
+.form-wrapper {
+  width: 20%;
+  height: auto;
+  border: 1px solid red;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.form-wrapper label {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.form-wrapper label input {
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  outline: none;
+  
+}
